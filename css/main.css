@@ -86,7 +86,7 @@ p {
         background-color: rgb(240, 226, 145);
         padding: 10px;
        
-        min-width: 90vw;
+        min-width: 100vw;
         color: rgb(194, 125, 218);
         display: flex;
         flex-direction: row;
@@ -216,9 +216,10 @@ footer {
 
 
 .off { 
- 
+    background-color: rgb(240, 226, 145);
+    padding: 10px;
     width: fit-content;
-   
+    font-size: 7rem;
     text-decoration-color: rgb(194, 125, 218);
    
     color: rgb(194, 125, 218);
@@ -227,12 +228,10 @@ footer {
     flex-wrap: row wrap;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
+    margin-top: 10px;
     justify-content: center;
-    
 
     transition: all 1s ease-in-out;
-    
 
 
 
@@ -256,9 +255,18 @@ footer {
     color: rgb(240, 226, 145);
     font-size: 110%;
 }
+.img {
+    max-width: 600px;
+    max-height: 600px;
+  
+    justify-content: center;
 
-
-
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
  
 /* ARRIBA - DERECHA - ABAJO - IZQUIERDA */ 
    
